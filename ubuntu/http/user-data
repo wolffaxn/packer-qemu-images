@@ -1,0 +1,14 @@
+#cloud-config
+disable_root: true
+ssh_pwauth: true
+
+users:
+  - name: ubuntu
+    groups: sudo
+    plain_text_passwd: ubuntu
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    shell: /bin/bash
+    lock_passwd: false
+
+package_update: true
+package_upgrade: true
