@@ -78,7 +78,7 @@ source "qemu" "ubuntu" {
   ssh_wait_timeout       = "30m"
   vm_name                = "${var.vm_name}.qcow2"
 
-  cd_files = ["http/user-data", "http/meta-data"]
+  cd_files = ["ubuntu/http/user-data", "ubuntu/http/meta-data"]
   cd_label = "cidata"
 }
 
