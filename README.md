@@ -7,6 +7,13 @@
 
 Create VM images (QCOW2 for QEMU/KVM) using Packer and Terraform.
 
+Currently supported images:
+
+| Name                | Version  |
+|:--------------------|:--------:|
+| __Noble Numbat__    | 24.04    |
+| __Jammy Jellyfish__ | 22.04.04 |
+
 # License
 
 This project is licensed under the terms of the [MIT license](LICENSE).
