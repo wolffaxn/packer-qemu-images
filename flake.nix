@@ -1,5 +1,5 @@
 {
-  description = "packer-kvm-images";
+  description = "packer-qemu-images";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
