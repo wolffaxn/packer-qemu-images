@@ -111,5 +111,5 @@ variable "ssh_wait_timeout" {
 
 variable "vm_name" {
   type    = string
-  default = "ubuntu"
+  default = "ubuntutT"
 }
